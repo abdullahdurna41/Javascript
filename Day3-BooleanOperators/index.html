@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boolean Type</title>
+    
+
+    <script src="booleantype.js" defer></script>
+    <script>/*
+        alert("üçgenin alanını hesaplayalım"); // true
+       let tabanuzunlugu = prompt("Taban uzunluğunu giriniz:","taban uzunluğu burada"); // kullanıcıdan veri alır
+       let yukseklik = prompt("Yüksekliği giriniz:","yükseklik burada");
+         let alan = 0.5 * tabanuzunlugu * yukseklik;
+         alert("Üçgenin alanı: " + alan);*/
+    </script>
+
+    
+    <script>
+        const now = new Date()
+        console.log(now) // Sat Jan 04 2020 00:56:41 GMT+0200 (Eastern European Standard Time)
+    </script>
+    <h1>
+        Date <script>document.write(now.getDate())</script>
+    </h1>
+    <script>
+        let dogumyili = prompt("kaç doğumlusun","yaşını gir");
+        if ((now.getFullYear() - dogumyili) >= 18) {1
+            alert("Ehliyet alabilirsin");
+        } else {
+            alert("Ehliyet alamazsın");
+        }
+
+    </script>
+    <script>
+        let yas = prompt("Yaşınızı giriniz","yaşınız burada");
+        alert(yas * 365 * 24 * 60 * 60 * 1000 + " milisaniye yaşadınız");
+    </script>
+    <script>  
+        let suankisaat = new Date();
+        alert("Şu an saat: " + suankisaat.getHours() + ":" + suankisaat.getMinutes() + ":" + suankisaat.getSeconds());
+    </script>
+    <h1>
+        <script>document.write("Bugünün Tarihi: "+suankisaat.getDate()+"."+(suankisaat.getMonth()+1)+"."+suankisaat.getFullYear() +" Şu an saat" +suankisaat.getHours() + ":" + suankisaat.getMinutes() + ":" + suankisaat.getSeconds());</script>
+    </h1>
+
+</head>
+</html>
